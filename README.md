@@ -33,7 +33,7 @@ For more information, please contact me at pfrank@aiuniv.edu
 
 ## Development Workflow
 
-At this point it's ready for development. Here are some tips:
+Once the app appears in the browser, it's running and also ready for further development. Here are some tips:
 
 - Main focus is `src/app.js`
 - **Standard workflow:**
