@@ -211,9 +211,9 @@ Note: CRA ("create-react-app") has been deprecated.
   - Those colorful menus during the creation scripts are intended to be navigated using the arrow keys!
   - Then do `npm install` (picks up node and more)
   - Then do `npm run dev` to run
-    - Have to control-click the link in the terminal
-    - Can auto-start by adding "--open" after dev in package.json
-- Uses the same approach of modules and imports, but there are some confusing differences
+    - To open the app, control-click the link in the terminal window
+    - Auto-start can be configured by adding "--open" after "dev" in package.json (careful!)
+- Uses the same approach of modules and imports, but there are some confusing differences (like component files needing to end with .jsx instead of .js)
 - **Suggestion:** Wait until you are more familiar with React before embracing Vite
 
 [Return to Top](#react-cheat-sheet)
