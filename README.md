@@ -170,8 +170,8 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
 3. Open package.json
 4. Add these two lines to your Scripts section:
    ```
-		  "predeploy": "npm run build",
-		  "deploy": "gh-pages -d build"
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
    ```
 5. Add a homepage field: (usually under name and version, on the third line) 
 	```
