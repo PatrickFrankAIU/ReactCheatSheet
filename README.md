@@ -151,7 +151,7 @@ Note: CRA ("create-react-app") has been deprecated.
 - I recommend continuing to use CRA, which is NOT going away and is still recommended for educational use
 
 ### Vite
-- An alternative to CRA, made by the same guy who made Vue
+- An alternative to CRA
 - Uses esbuild instead of webpack
 - Recommended and widely used
 - Setup:
