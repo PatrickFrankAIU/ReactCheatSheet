@@ -6,6 +6,14 @@ Patrick Frank, Instructor
 
 # React Cheat Sheet
 
+## Table of Contents
+- [Creating a New App](#creating-a-new-app)
+- [Development Workflow](#development-workflow)
+- [React Routing](#react-routing)
+- [Deployment with GitHub and Render.com](#deployment-with-github-and-rendercom)
+- [Useful Resources](#useful-resources)
+- [CRA Alternatives](#cra-alternatives)
+
 ## Creating a New App
 
 - Start by making a folder and opening it in VS Code
@@ -58,7 +66,7 @@ At this point it's ready for development. Here are some tips:
 
 To enable navigation between different pages/components:
 
-1. Install React Router (stop first with control-C if currently running):
+1. Install React Router:
    ```bash
    npm install react-router-dom
    ```
@@ -135,6 +143,46 @@ To enable navigation between different pages/components:
    }
    ```
 
+## Deployment with GitHub and Render.com
+
+### GitHub Repository Setup
+
+If you've created your React app in VS Code:
+
+1. In VS Code:
+   - Click on the Source Control icon in the sidebar (branch icon)
+   - Click "Publish to GitHub"
+   - Choose "Public" or "Private" repository
+   - Name your repository and click "OK"
+
+2. Verify your code is now on GitHub by visiting your GitHub profile
+
+### Deploying with Render.com
+
+Assuming your Render account is connected to your GitHub account:
+
+1. Log in to Render.com
+
+2. Click "New" and select "Web Service"
+
+3. Find and select your GitHub repository
+
+4. Configure your web service:
+   - **Name**: Your project name
+   - **Runtime**: Node
+   - **Build Command**: `npm run build`
+   - **Start Command**: `serve -s build` (You might need to install serve: `npm install -g serve`)
+
+5. Click "Create Web Service"
+
+6. Once deployed, Render will provide you with a URL to access your live application
+
+7. For future updates:
+   - Push changes to GitHub
+   - Render will automatically rebuild and redeploy your application
+
+That's it! Your React app is now live on the internet.
+
 ## Useful Resources
 
 ### Geeks4Geeks (good tutorial): https://www.geeksforgeeks.org/react/
@@ -151,7 +199,7 @@ Note: CRA ("create-react-app") has been deprecated.
 - I recommend continuing to use CRA, which is NOT going away and is still recommended for educational use
 
 ### Vite
-- An alternative to CRA
+- An alternative to CRA, made by the same guy who made Vue
 - Uses esbuild instead of webpack
 - Recommended and widely used
 - Setup:
