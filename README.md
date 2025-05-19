@@ -52,7 +52,7 @@ Once the app appears in the browser, it's running and also ready for further dev
      ```jsx
      export default MyNewPage;
      ```
-  4. **Remember:** JSX gets wrapped in the parentheses of `return()`, which gets a semi-colon on the end!
+  4. **Remember:** As shown above, JSX always gets wrapped in the parentheses of `return()`, which gets a semi-colon on the end!
 
 - **Next:**
   1. Import the new file in app.js
