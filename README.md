@@ -178,7 +178,7 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
     "homepage": "https://yourusername.github.io/your-repo-name"
   ``` 
 6. Type on command line (this will run the predeploy script, building and then updating the branch, commiting and pushing the repository to GitHub):
-```bash
+```
   npm run deploy
 ```
 7. In GitHub (it may take a few minutes after running the command above for this to work):
