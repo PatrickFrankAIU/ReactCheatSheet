@@ -19,7 +19,7 @@ For more information, please contact me at pfrank@aiuniv.edu
 ## Creating a New App
 
 - Start by making a folder and opening it in VS Code
-- Open a terminal prompt and execute:
+- Open a terminal prompt and execute (note the period on the end!):
   ```bash
   npx create-react-app .
   ```
