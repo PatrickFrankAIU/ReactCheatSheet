@@ -189,7 +189,7 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
 
 ### Deploying with Render.com
 
-Render is only needed if you have server-side code. A normal React app can just be hosted on Pages. But if you need Render, follow these steps. Assuming your Render account is connected to your GitHub account:
+Render is only needed if you have server-side code. A normal React front-end app can just be hosted on Pages. But if you need Render, follow these steps. Assuming your Render account is connected to your GitHub account:
 
 1. Log in to Render.com
 
