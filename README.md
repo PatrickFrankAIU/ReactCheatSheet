@@ -60,7 +60,10 @@ Once the app appears in the browser, it's running and also ready for further dev
      import MyNewPage from './MyNewPage.js';
      ```
   2. Execute the new file in app.js's return() function
-  3. Run the app
+     ```jsx
+     <MyNewPage />
+     ```
+  4. Run the app
 
 - Note: You can do all of the above while it's running, too.
 
