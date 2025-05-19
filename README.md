@@ -24,7 +24,7 @@ For more information, please contact me at pfrank@aiuniv.edu
   npx create-react-app .
   ```
   - This may take a while, and you'll see things appear in Explorer
-  - Done when it says "Happy hacking!"
+  - It's done when it says "Happy hacking!"
 - Now you're ready to run it:
   ```bash
   npm start
