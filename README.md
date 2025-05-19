@@ -176,7 +176,7 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
 5. Add a homepage field: (usually under name and version, on the third line) 
 	```
     "homepage": "https://yourusername.github.io/your-repo-name"
-  ``` 
+  ```
 6. Type on command line (this will run the predeploy script, building and then updating the branch, commiting and pushing the repository to GitHub):
 ```
   npm run deploy
