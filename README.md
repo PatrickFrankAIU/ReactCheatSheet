@@ -166,25 +166,25 @@ If you've created your React app in VS Code:
 
 For most React apps, hosting with Pages is perfectly fine, but it does require a few extra steps: 
 1. Stop the app
-2. In the terminal, run: npm install --save-dev gh-pages
+2. In the terminal, run: `npm install --save-dev gh-pages`
 3. Open package.json
 4. Add these two lines to your Scripts section:
-   ```
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+   ```json
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
    ```
 5. Add a homepage field: (usually under name and version, on the third line) 
-	```
-    "homepage": "https://yourusername.github.io/your-repo-name"
-  ```
+   ```json
+   "homepage": "https://yourusername.github.io/your-repo-name"
+   ```
 6. Type on command line (this will run the predeploy script, building and then updating the branch, commiting and pushing the repository to GitHub):
-```
-  npm run deploy
-```
+   ```bash
+   npm run deploy
+   ```
 7. In GitHub (it may take a few minutes after running the command above for this to work):
-  - Go to Settings
-  - Go to the Pages tab
-  - Set the source branch to "gh-pages" and click Save (may happen automatically)
+   - Go to Settings
+   - Go to the Pages tab
+   - Set the source branch to "gh-pages" and click Save (may happen automatically)
 
 
 ### Deploying with Render.com
