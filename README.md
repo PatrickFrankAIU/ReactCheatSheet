@@ -54,6 +54,87 @@ At this point it's ready for development. Here are some tips:
 
 - Note: You can do all of the above while it's running, too.
 
+## React Routing
+
+To enable navigation between different pages/components:
+
+1. Install React Router (stop first with control-C if currently running):
+   ```bash
+   npm install react-router-dom
+   ```
+
+2. Set up your router in `App.js`:
+   ```jsx
+   import { BrowserRouter, Routes, Route } from 'react-router-dom';
+   import Home from './Home';
+   import About from './About';
+   import Navbar from './Navbar';
+
+   function App() {
+     return (
+       <BrowserRouter>
+         <Navbar />
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/about" element={<About />} />
+         </Routes>
+       </BrowserRouter>
+     );
+   }
+   ```
+
+3. Create a navigation component (`Navbar.js`):
+   ```jsx
+   import { Link } from 'react-router-dom';
+
+   function Navbar() {
+     return (
+       <nav>
+         <Link to="/">Home</Link>
+         <Link to="/about">About</Link>
+       </nav>
+     );
+   }
+
+   export default Navbar;
+   ```
+
+4. Navigate programmatically (e.g., after form submission):
+   ```jsx
+   import { useNavigate } from 'react-router-dom';
+
+   function LoginForm() {
+     const navigate = useNavigate();
+     
+     const handleSubmit = (e) => {
+       e.preventDefault();
+       // Process login...
+       navigate('/dashboard');
+     };
+     
+     return (
+       <form onSubmit={handleSubmit}>
+         {/* form fields */}
+         <button type="submit">Login</button>
+       </form>
+     );
+   }
+   ```
+
+5. Access URL parameters:
+   ```jsx
+   // In App.js route definition
+   <Route path="/product/:id" element={<ProductDetail />} />
+
+   // In ProductDetail.js
+   import { useParams } from 'react-router-dom';
+
+   function ProductDetail() {
+     const { id } = useParams();
+     return <h1>Product ID: {id}</h1>;
+   }
+   ```
+
 ## Useful Resources
 
 ### Geeks4Geeks (good tutorial): https://www.geeksforgeeks.org/react/
