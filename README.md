@@ -1,7 +1,7 @@
 ![image](https://github.com/PatrickFrankAIU/GradeManagerProject/assets/134087916/b5d814bf-e38f-456f-8f9c-cb5a98fb52fa)
 
-# Cheat Sheet for Creating React Apps
 ## For students in the Full Stack Web Development program at Digital Crafts.    
+_Note: This document assumes that you are already familiar with Node and Visual Studio Code. _
 Patrick Frank, Instructor
 
 # React Cheat Sheet
