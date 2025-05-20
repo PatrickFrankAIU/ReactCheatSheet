@@ -173,6 +173,7 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
    "predeploy": "npm run build",
    "deploy": "gh-pages -d build"
    ```
+   _Note: At the start of the Scripts section, you'll need a comma after second line. Or just place them at the end of the section._ 
 5. Add a homepage field: (usually under name and version, on the third line) 
    ```json
    "homepage": "https://yourusername.github.io/your-repo-name"
