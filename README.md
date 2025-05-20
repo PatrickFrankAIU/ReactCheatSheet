@@ -11,7 +11,7 @@ For more information, please contact me at pfrank@aiuniv.edu
 ## Table of Contents
 - [Creating a New App](#creating-a-new-app)
 - [Development Workflow](#development-workflow)
-- [React Routing](#react-routing)
+- [React Routing](#react-routing) _(Not currently working!)_
 - [Deployment with GitHub and Render.com](#deployment-with-github-and-rendercom)
 - [Useful Resources](#useful-resources)
 - [CRA Alternatives](#cra-alternatives)
@@ -68,7 +68,7 @@ Once the app appears in the browser, it's running and also ready for further dev
 - Note: You can do all of the above while it's running, too.
 
 ## React Routing
-
+_(Note: This section is not currently working. Coming soon!)_ 
 To enable navigation between different pages/components:
 
 1. Install React Router:
