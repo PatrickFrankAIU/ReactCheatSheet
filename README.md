@@ -181,6 +181,7 @@ For most React apps, hosting with Pages is perfectly fine, but it does require a
    ```bash
    npm run deploy
    ```
+   _NOTE: If package.json is showing yellow (Modified) at this point, commit and sync the repository manually. _
 7. In GitHub (it may take a few minutes after running the command above for this to work):
    - Go to Settings
    - Go to the Pages tab
