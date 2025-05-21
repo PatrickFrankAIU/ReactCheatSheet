@@ -2,6 +2,7 @@
 
 ## For students in the Full Stack Web Development program at Digital Crafts.    
 _Note: This document assumes that you are already familiar with Node and Visual Studio Code!_
+_Note: The sections on routing and Render.com deployment are still in progress!_ 
 
 Author: Patrick Frank, Instructor    
 For more information, please contact me at pfrank@aiuniv.edu
